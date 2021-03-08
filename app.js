@@ -1,5 +1,7 @@
 const express = require('express')
 const http = require('http')
+require('dotenv').config()
+
 var cors = require('cors')
 const app = express()
 const bodyParser = require('body-parser')
@@ -18,7 +20,8 @@ if(process.env.NODE_ENV==='production'){
 		res.sendFile(path.join(__dirname+"/build/index.html"))
 	})
 }
-app.set('port', (process.env.PORT || 4021))
+
+app.set('port', (process.env.SERVER_PORT || 4011))
 
 sanitizeString = (str) => {
 	return xss(str)
