@@ -9,7 +9,7 @@ Developed with ReactJS, Node.js, SocketIO.
 ![Website](https://i.imgur.com/HhZD01o.jpg)
 
 ### Website
-Try Video Meeting here [video.sebastienbiollo.com](https://video.sebastienbiollo.com)
+Try Video Meeting here [https://meet.rdlsc.ml:8021](https://meet.rdlsc.ml:8021)
 
 
 ### Features
